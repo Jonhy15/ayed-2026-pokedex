@@ -67,3 +67,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+from src.dominio.pokedex import Pokedex
+def main():
+dex = Pokedex()
+dex.cargar_datos_iniciales()
